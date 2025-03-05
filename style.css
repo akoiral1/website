@@ -1,0 +1,97 @@
+
+.title{
+    text-align: center;
+}
+
+#sections{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.subheadings{
+    width: 25rem;
+    border: dashed;
+    margin-bottom: 1rem;
+}
+
+body {
+    background: #F4DAF9;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.image{
+    object-fit: cover;
+    width: 75%;
+    height: 75%;
+}
+
+.basic-images{
+    object-fit: cover;
+    width: 75%;
+    height: 75%;
+    
+
+}
+#basicss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.basic-box{
+    width: 37rem;
+    /* border-style: dashed; */
+    padding-top: 2rem;
+
+}
+
+.img-flex{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.img-flex figure{
+    width: 35%;
+    
+}
+
+.img-flex img{
+    width: 100%;
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+.img-flex figcaption{
+    font-size: smaller;
+    text-align: center;
+}
+
+li{
+    margin-bottom: 20px;
+    font-size: large;
+}
+.basic-box h4{
+    text-align: center;
+}
+
+hr{
+    width: 70rem;
+    color: black;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 50px;
+    width: 50%;
+}
+
+
+.home-link {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: large;
+    color: blue;
+    text-decoration: none;
+}
